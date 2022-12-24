@@ -1,8 +1,10 @@
 name: ds_env
 description: Deadly simple env
 version: 1.0.0
+repository: https://github.com/uac-nhan-nguyen/ds_env
 environment:
   sdk: '>=2.10.0 <3.0.0'
 
 dependencies:
-  test:
+  test: ^1.22.1
+
