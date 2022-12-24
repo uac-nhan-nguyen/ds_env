@@ -4,7 +4,7 @@ Usage
 import 'ds_env/ds_env.dart';
 
 main() {
-  final env = DSEnv('secrets');
+  final env = Env('secrets');
 
   print(env['API_KEY']);
 }
